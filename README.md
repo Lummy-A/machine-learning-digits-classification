@@ -1,9 +1,7 @@
 # machine-learning-digits-classification
-This project demonstrates a complete end-to-end machine learning workflow for classifying handwritten digits using the **Digits Dataset** from Scikit-learn.
+This repository contains a comprehensive comparison of various machine learning classification algorithms on the Sklearn Digits dataset, evaluating both default and hyperparameter-tuned versions of each model. The project demonstrates a complete end-to-end machine learning workflow for classifying handwritten digits using the **Digits Dataset** from Scikit-learn.
 
 <img src="Digits_Dataset.png" width="600"/>
-
-Classification of handwritten digits using classical machine learning methods with model optimization and evaluation on the Scikit-learn Digits dataset
 
 
 
@@ -76,6 +74,13 @@ The performance evaluation of eight classification models on the Sklearn Digits 
 ## Conclusion
 These results reinforce several theoretical foundations of machine learning across all tested models. The superior performance of ensemble methods (Gradient Boosting, Random Forest, AdaBoost after tuning) validates the mathematical principles behind boosting (sequential error correction) and bagging (variance reduction through randomized sampling). Support Vector Machine's effectiveness demonstrates its theoretical advantage in finding optimal decision boundaries in high-dimensional spaces, while Logistic Regression's strong performance validates its probabilistic approach to classification despite its relative simplicity. The comparative weakness of Decision Trees highlights their known vulnerability to overfitting without pruning or ensemble techniques. K-Nearest Neighbors' solid results reflect the power of non-parametric, instance-based learning when working with well-clustered data. The relative struggles of Gaussian Naive Bayes illustrate the limitations of its independence assumption between features, particularly problematic for spatially correlated image data. The consistent improvement post-tuning across all algorithms confirms optimization theory's central role in practical machine learning. This comprehensive comparison illustrates how algorithm selection should be guided by understanding both data characteristics and each model's theoretical underpinnings, with tuned parameters bridging the gap between theory and optimal performance.
 
+## Key Findings
+
+- Ensemble methods (Gradient Boosting, Random Forest) consistently performed best
+- Hyperparameter tuning significantly improved performance, especially for AdaBoost
+- Decision Trees consistently underperformed compared to other algorithms
+- Top models achieved balanced accuracy, precision, recall, and F1-scores exceeding 0.97
+
 ---
 
 ##  How To Run
@@ -136,6 +141,9 @@ This project cites academic papers and textbook references for each classificati
 ## Acknowledgement
 Generative AI (ChatGPT) was minimally used for minor code optimization suggestions (e.g., improving ROC plot styles and DataFrame indexing).
 All main logic, model building, evaluation, and tuning were manually implemented.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
