@@ -111,5 +111,27 @@ This project is a collaboration between
 - **Nanditha Suresh Kumar** 
 - **Kedar Vishwanath Kalyani**
 
+## Contributing
+
+We welcome contributions! If you’d like to help improve this project, follow these steps:
+
+1. Fork this repository.
+2. Clone your fork locally.
+3. Create a new branch (`git checkout -b feature-branch`).
+4. Make your changes and commit (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+Feel free to open an issue for any questions, suggestions, or bugs!
+
+## References
+This project cites academic papers and textbook references for each classification method, evaluation technique, and model improvement strategies.
+(Full reference list is included inside the project folder.)
+
+## Acknowledgement
+Generative AI (ChatGPT) was minimally used for minor code optimization suggestions (e.g., improving ROC plot styles and DataFrame indexing).
+All main logic, model building, evaluation, and tuning were manually implemented.
+
+
 
 
